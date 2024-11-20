@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>JavaScript Condiciones</title>
+</head>
+<body>
+  <div class="content">
+    <!-- Ejercicio 1 - Pokermon Mas Poderoso -->
+    <section class="pokemon-mewtwo-v">
+      <h1>Pokemon Cartas</h1>
+      <h4>Mewtwo V</h4>
+      <img id="mewtwo-v" src="assets/img/Mewtwo_V-220Ps.png" alt="Mewtwo V">
+      <article class="skills">
+        <h3>Debilidades y Resistencia</h3>
+        <div class="Mewtwo_V-Deb_Res">
+          <img id="Deb" src="assets/img/Mewtwo_Debilidad.png" alt="Mewtwo_Debilidad">
+          <img id="Reti" src="assets/img/Mewtwo_Retirada-Costo.png" alt="Mewtwo_Retirada-Costo">
+          <img id="Res" src="assets/img/Mewtwo_Resistencia.png" alt="Mewtwo_Resistencia">
+        </div>
+      </article>
+    </section>
+    <hr />
+
+    <!-- Ejercicio 2 - Cartas Pokemon -->
+    <section class="cartas-pokemon">
+      <h1>Cartas Pokemon</h1>
+      <div class="items-container">
+        <article class="pokemon-card">
+          <h3>Bulbasaur</h3>
+          <img src="assets/img/Bulbasaur-70ps.png" alt="Bulbasaur">
+          <input type="number" id="poke1" placeholder="Cantidad">
+        </article>
+        <article class="pokemon-card">
+          <h3>Pikachu</h3>
+          <img src="assets/img/pikachu_ex-200ps.png" alt="Pikachu">
+          <input type="number" id="poke2" placeholder="Cantidad">
+        </article>
+        <article class="pokemon-card">
+          <h3>Squirtle</h3>
+          <img src="assets/img/Squirtle-70ps.png" alt="Squirtle">
+          <input type="number" id="poke3" placeholder="Cantidad">
+        </article>
+      </div>
+      <button id="check-poke-cards">Verificar Cartas</button>
+      <p id="item-notice">Has agregado <span id="total-items">0</span> ítems.</p>
+    </section>
+    <hr />
+
+    <!-- Ejercicios 3 - Pokemon Number -->
+    <section class="pokem-number">
+      <h1>Pokedex Number</h1>
+      <img src="assets/img/Skeledirge.png" alt="Skeledirge" />
+      <div class="pokedex-container">
+        <article class="poke-part">
+          <h1>*</h1>
+          <select id="digit1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </article>
+        <article class="poke-part">
+          <h1>*</h1>
+          <select id="digit2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </article>
+        <article class="poke-part">
+          <h1>*</h1>
+          <select id="digit3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </article>
+      </div>
+      <button id="submit-code">Verificar Nombre</button>
+      <p id="poke-status"></p>
+    </section>
+    <hr />
+  </div>
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

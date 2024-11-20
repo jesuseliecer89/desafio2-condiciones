@@ -1,0 +1,161 @@
+/* Estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://preview.redd.it/the-complete-timeline-of-runeterra-by-noxus-v0-xynlmki2e9ta1.jpg?width=1080&crop=smart&auto=webp&s=0d3e9ec0bfa87755148708cab5a10b4e7494484c");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* Estilo de encabezados */
+h1 {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h3,
+h4 {
+  color: #c7a96d;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  font-style: italic;
+}
+
+/* Secciones generales */
+section {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Ejercicio 1: Pokémon más poderoso */
+.pokemon-mewtwo-v img {
+  width: 400px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.borde-rojo {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.mewtwo-v-deb-res {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.mewtwo-v-deb-res img {
+  width: 80px;
+  border-radius: 0.5rem;
+}
+
+/* Ejercicio 2: Cartas Pokémon */
+.cartas-pokemon {
+  text-align: center;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.pokemon-card img {
+  width: 150px;
+}
+
+.pokemon-card input {
+  width: 80%;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.pokemon-card input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+button {
+  background-color: #c7a96d;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b08b5a;
+}
+
+/* Ejercicio 3: Pokedex Number */
+.pokem-number img {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.pokedex-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.poke-part select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+#poke-status {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #c7a96d;
+}
+
+/* Accesorios */
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 2rem 0;
+}
